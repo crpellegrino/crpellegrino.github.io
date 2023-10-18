@@ -3,3 +3,19 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+h2, h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 32px;
+}
+
+.collapsible {
+    background-color: lightgray;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+}
