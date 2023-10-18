@@ -12,6 +12,14 @@ p {
     font-size: 32px;
 }
 
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
 .collapsible {
     background-color: white;
     border: 2px solid black;
