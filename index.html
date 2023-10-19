@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>Craig Pellegrino></title>
+  <title>Craig Pellegrino</title>
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="personal_style.css" rel="stylesheet">
 </head>
@@ -19,8 +19,8 @@
     <div class="col-md-12">
       <div class="row" style="padding: 3rem 0rem 3rem 0rem;" id="bio">
         <h2>About Me</h2>
-	<p>Hi! I'm Craig Pellegrino, a postdoctoral research associate at the University of Virginia. I study supernovae and the ways in which stars evolve during their final years before exploding. I'm particularly interested in finding rare and unusual classes of supernovae to better understand the nature of their progenitor stars. Much of my work falls within the intersection of time-domain astronomy, software development, and data science; I have developed software to filter the exponentially-increasing volumes of transient data in order to find potential targets of interests to observe.</p><br>
-	<p>Before I started as a postdoctoral researcher I graduated from the University of California, Santa Barbara, with a PhD in physics in 2023. Before that, I finished my undergraduate degree in 2018 at Vassar College, where I double majored in physics and astronomy.</p><br>
+	<p>Hi! I'm Craig Pellegrino, a postdoctoral research associate at the University of Virginia. I study supernovae and the ways in which stars evolve during their final years before exploding. I'm particularly interested in finding rare and unusual classes of supernovae to better understand the nature of their progenitor stars. Much of my work falls within the intersection of time-domain astronomy, software development, and data science; I have developed software to filter the exponentially-increasing volumes of transient data in order to find potential targets of interest to observe.</p><br>
+	<p>Before I started as a postdoctoral researcher I graduated from University of California, Santa Barbara, with a PhD in physics (astrophysics emphasis) in 2023. While at UC Santa Barbara I was advised by Dr. Andy Howell and worked closely with Las Cumbres Observatory. Before that, I graduated with honors from Vassar College in 2018, where I double majored in physics and astronomy.</p><br>
 	<p>Feel free to <a href="#contact">get in touch.</a></p>
       </div>
       <div class="row" style="padding: 3rem 0rem 3rem 0rem;" id="research">
@@ -45,9 +45,19 @@
       </div>
       <div class="row" style="padding: 3rem 0rem 3rem 0rem;" id="software">
 	<h2>Software Projects</h2>
-	<p>I'm the lead developer of the Supernova Exchange 2.0 (SNEx2), a Target and Observation Manager (TOM) written using the <a href="https://github.com/TOMToolkit/">TOM Toolkit</a> developed at Las Cumbres Observatory. TOMs such as SNEx2 are used to ingest data and targets from time-domain surveys, request observations on robotically-controlled telescopes around the world, and share data with collaborators. Many of the SNEx2 features I have written enable real-time filtering of potentially interesting supernova candidates from surveys, allowing us to observe these transients as early after explosion as possible. SNEx2 is used by hundreds of astronomers worldwide, and its code is entirely <a href="https://github.com/lcogt/snex2">open source.</a></p><br>
-	<p>Through SNEx2 I am also building the software infrastructure used by Las Cumbres Observatory to search for the electromagnetic counterparts to gravitational wave events detected by LIGO and Virgo. This involves ingesting the real-time alerts distributed by the LIGO-Virgo Collaboration, choosing optimal observing strategies, and communicating our observations to the broader community. Our follow-up infrastructure allowed our collaboration to independently discover the first kilonova counterpart to a binary neutron star merger in 2017.</p><br>
-	<p>I am also a developer of several astronomical data reduction pipelines, including <a href="https://github.com/lcogt/lcogtsnpipe">lcogtsnpipe</a>, a pipeline to process Las Cumbres Observatory images for the Global Supernova Project, as well as <a href="https://github.com/lcogt/floyds_pipeline">floyds_pipeline</a>, which reduces spectra obtained using the FLOYDS spectrographs.</p>
+	<p>Along with research, I'm actively involved in developing software to enable the science being done by several large collaborations. Click below for some of these projects:</p>
+	<button type="button" class="collapsible">Supernova Exchange 2.0</button>
+	<div class="content" style="display: none;">
+	  <p>I'm the lead developer of the Supernova Exchange 2.0 (SNEx2), a Target and Observation Manager (TOM) written using the <a href="https://github.com/TOMToolkit/">TOM Toolkit</a> developed at Las Cumbres Observatory. TOMs such as SNEx2 are used to ingest data and targets from time-domain surveys, request observations on robotically-controlled telescopes around the world, and share data with collaborators. Many of the SNEx2 features I have written enable real-time filtering of potentially interesting supernova candidates from surveys, allowing us to observe these transients as early after explosion as possible. SNEx2 is used by hundreds of astronomers worldwide, and its code is entirely <a href="https://github.com/lcogt/snex2">open source.</a></p>
+	</div>
+	<button type="button" class="collapsible">Multi-messenger astronomy infrastructure</button>
+	<div class="content" style="display: none;">
+	  <p>Through SNEx2 I am also building the software infrastructure used by Las Cumbres Observatory to search for the electromagnetic counterparts to gravitational wave events detected by LIGO and Virgo. This involves ingesting the real-time alerts distributed by the LIGO-Virgo Collaboration, choosing optimal observing strategies, and communicating our observations to the broader community. Our follow-up infrastructure allowed our collaboration to independently discover the first kilonova counterpart to a binary neutron star merger in 2017.</p>
+	</div>
+	<button type="button" class="collapsible">Astronomical data reduction pipelines</button>
+	<div type="content" style="display: none;">
+	  <p>I am also a developer of several data reduction pipelines, including <a href="https://github.com/lcogt/lcogtsnpipe">lcogtsnpipe</a>, a pipeline to process Las Cumbres Observatory images for the Global Supernova Project, as well as <a href="https://github.com/lcogt/floyds_pipeline">floyds_pipeline</a>, which reduces spectra obtained using the FLOYDS spectrographs.</p>
+	</div>
       </div>
       <div class="row" style="padding: 3rem 0rem 3rem 0rem;" id="software">
 	<h2>Publications</h2>
