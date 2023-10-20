@@ -2,9 +2,9 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    background: url(https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg) no-repeat 50% 50% fixed;
+/*    background: url(https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg) no-repeat 50% 50% fixed;
     color: white;
-}
+*/}
 
 body:before {
     content:"";
@@ -15,7 +15,7 @@ body:before {
     left:0;
     top:0;
     z-index:-1;
-    background-color: rgba(0, 0, 0, 0.6);
+/*    background-color: rgba(0, 0, 0, 0.6);*/
 }
 
 h2, h1 {
@@ -34,6 +34,11 @@ li {
     display: inline;
 }
 
+.navbar-header {
+  background: url(https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg) no-repeat 50% 50% fixed;
+  height: 100%;
+}
+
 .collapsible {
     background-color: white;
     border: 2px solid black;
@@ -41,11 +46,29 @@ li {
     width: 100%;
     font-size: 30px;
     padding: 2rem 0rem 2rem 0rem;
+    opacity: 0.75;
+}
+
+#research {
+    background: url(https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg) no-repeat 50% 50% fixed;
+}
+
+#research:before {
+    content:"";
+    display:block;
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:-1;
 }
 
 .research-description {
     padding: 0rem 3rem 0rem 3rem;
     font-size: 24px;
     border: 2px solid black;
-    background-color: lightgray;
+    background-color: white;
+    color: black;
+    opacity: 0.75;
 }
