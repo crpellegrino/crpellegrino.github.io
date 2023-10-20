@@ -49,10 +49,6 @@ li {
     opacity: 0.75;
 }
 
-#research {
-    background: url(https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg) no-repeat 50% 50% fixed;
-}
-
 #research:before {
     content:"";
     display:block;
